@@ -1,8 +1,16 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const SectionStyled = styled.section`
-background-color: ${props => props.colors.backgroundColor};
-height: 100vh;
+  height: 100vh;
+  padding: 5% 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background: url(${(props) => props.backgroundImage}) no-repeat center fixed;
+  background-size: cover;
+  background-color: ${(props) => props.colors.primaryColor};
 `;
 
-export {SectionStyled};
+export { SectionStyled };
