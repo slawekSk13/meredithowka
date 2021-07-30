@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
 export const ColorThemeObj = {
-  backgroundColor: 'olive'
-}
+  primaryColor: "rgb(238, 238, 238)",
+  secondaryColor: "#393e46",
+};
 
 export const ColorTheme = React.createContext({
-  ...ColorThemeObj
-})
+  ...ColorThemeObj,
+});
