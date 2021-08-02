@@ -3,11 +3,11 @@ import { TitleStyled } from "./Title.styles";
 import propTypes from "prop-types";
 import { ColorTheme } from "../../utilities/ColorTheme";
 
-const Title = ({ text, size, up, light }) => {
+const Title = ({ text, size, up, light, thick }) => {
   return (
     <ColorTheme.Consumer>
       {(colors) => (
-        <TitleStyled colors={colors} size={size} up={up} light={light}>
+        <TitleStyled thick={thick} colors={colors} size={size} up={up} light={light}>
           {text}
         </TitleStyled>
       )}

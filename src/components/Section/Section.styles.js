@@ -4,6 +4,7 @@ const SectionStyled = styled.section`
   height: 100vh;
   padding: 5% 15%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
