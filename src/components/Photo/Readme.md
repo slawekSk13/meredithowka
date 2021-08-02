@@ -1,0 +1,9 @@
+```js
+<>
+    <Photo
+        src="https://meredithhouse.eu/test/images/web035.jpg"
+    /><Photo
+    src="https://meredithhouse.eu/test/images/web036.jpg"
+/>
+</>
+```

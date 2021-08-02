@@ -13,4 +13,4 @@ const SectionStyled = styled.section`
   background-color: ${(props) => props.colors.primaryColor};
 `;
 
-export { SectionStyled };
+export {SectionStyled};
