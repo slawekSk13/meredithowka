@@ -1,6 +1,6 @@
 import React from 'react';
 import {ParagraphStyled} from "./Paragraph.styles";
 
-const Paragraph = ({text}) => <ParagraphStyled>{text}</ParagraphStyled>;
+const Paragraph = ({text, small}) => <ParagraphStyled small={small}>{text}</ParagraphStyled>;
 
 export {Paragraph}
