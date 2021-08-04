@@ -7,7 +7,7 @@ const Intro = () => <Section
 >
     <Title text={'MEREDITHÓWKA'} big up light thick/>
     <Title text={'NIEZNANE PODHALE'} up light/>
-    <Button icon={'fas fa-home'} text={'Zapraszamy!'} targetId={'meredithowka'}/>
+    <Button icon={'fas fa-home'} text={'Zapraszamy!'} target={'meredithowka'}/>
 </Section>
 
 export {Intro}

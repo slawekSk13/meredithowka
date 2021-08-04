@@ -3,7 +3,7 @@ import {Paragraph} from "../components/Paragraph/Paragraph";
 import {Section} from "../components/Section/Section";
 
 
-const Meredithowka = () => <Section id={'meredithowka'}>
+const Meredithowka = () => <Section name={'meredithowka'}>
     <Title text={'Meredithówka to ponad stuletni, góralski dom'} thick/>
     <Paragraph
         text={'Wieś Dzianisz, należąca do gminy Kościelisko wciąż jest miejscem nieodkrytym. Kiedy tu\n' +

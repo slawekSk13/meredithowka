@@ -12,13 +12,13 @@ const Inside = () => {
                 <Title text={'Wnętrze'} big light thick/>
                 <Title text={'jest zawsze większe od tego, co na zewnątrz'} light/>
                 <Title text={'- C.S.Lewis'} light/>
-                <Button icon={'fas fa-coffee'} text={'Wejdź'} targetId={'wyposazenie'}/>
+                <Button icon={'fas fa-coffee'} text={'Wejdź'} target={'wyposazenie'}/>
             </Section>
-            <Section id={'wyposazenie'}>
+            <Section name={'wyposazenie'}>
                 <Title text={'Dom składa się z dwóch pięter:'} thick/>
-                <Title text={'Parter:'} small/>
+                <Title text={'Parter:'} />
                 <List listContent={['Kuchnia w pełni wyposażone w sprzęty kuchenne', 'Salon z kominkiem', 'Łazienka z prysznicem', 'Pokój z łózkiem podwójnym i pojedynczym']}/>
-                <Title text={'Pierwsze piętro:'} small/>
+                <Title text={'Pierwsze piętro:'} />
                 <List listContent={['Pokój z łózkiem podwójnym i pojedynczym', 'Pokój otwarty z łózkiem podwójnym i pojedynczym']}/>
             </Section>
         </>

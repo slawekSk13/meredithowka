@@ -13,9 +13,9 @@ const PriceList = () => {
                 <Title text={'Czas jest cenniejszy od pieniędzy'} light thick/>
                 <Title text={'możesz mieć więcej pieniędzy, ale nie możesz mieć więcej czasu'} small light/>
                 <Title text={'- Jim Rohn'} small light/>
-                <Button icon={'fas fa-coins'} text={'Cennik'} targetId={'cennik'}/>
+                <Button icon={'fas fa-coins'} text={'Cennik'} target={'cennik'}/>
             </Section>
-            <Section id={'cennik'}>
+            <Section name={'cennik'}>
                 <Title text={'Koszt wynajmu domu (doba):'} thick/>
                 <List listContent={['2 os. - 450 zł', '3 os. - 600 zł', '4 os. - 750 zł', '5 os. - 900 zł', '6 os. - 1000 zł', 'Od 7 osób do negocjacji', 'Dzieci do 5 lat bezpłatnie', 'Dzieci 5-10 lat - 100 zł']}/>
 

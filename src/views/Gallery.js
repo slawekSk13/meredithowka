@@ -10,7 +10,7 @@ const Gallery = () => {
             >
                 <Title text={'Nie ufam słowom, ufam zdjęciom'} light thick/>
                 <Title text={'- Gilles Peress'} small light/>
-                <Button icon={'fas fa-images'} text={'Zajrzyj do nas'} targetId={'zdjecia'}/>
+                <Button icon={'fas fa-images'} text={'Zajrzyj do nas'} target={'zdjecia'}/>
             </Section>
         </>
     )
