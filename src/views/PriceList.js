@@ -10,8 +10,7 @@ const PriceList = () => {
             <Section
                 backgroundImage={`${process.env.PUBLIC_URL}/images/web037.jpg`}
             >
-                <Title text={'Czas jest cenniejszy od pieniędzy'} light thick/>
-                <Title text={'możesz mieć więcej pieniędzy, ale nie możesz mieć więcej czasu'} small light/>
+                <Title text={'Czas jest cenniejszy od pieniędzy. Możesz mieć więcej pieniędzy, ale nie możesz mieć więcej czasu'} light thick/>
                 <Title text={'- Jim Rohn'} small light/>
                 <Button icon={'fas fa-coins'} text={'Cennik'} target={'cennik'}/>
             </Section>

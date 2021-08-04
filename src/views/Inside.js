@@ -9,9 +9,9 @@ const Inside = () => {
             <Section
                 backgroundImage={`${process.env.PUBLIC_URL}/images/duze/web039.jpg`}
             >
-                <Title text={'Wnętrze'} big light thick/>
-                <Title text={'jest zawsze większe od tego, co na zewnątrz'} light/>
-                <Title text={'- C.S.Lewis'} light/>
+
+                <Title text={'Wnętrze jest zawsze większe od tego, co na zewnątrz'} light thick/>
+                <Title text={'- C.S.Lewis'} small light/>
                 <Button icon={'fas fa-coffee'} text={'Wejdź'} target={'wyposazenie'}/>
             </Section>
             <Section name={'wyposazenie'}>
