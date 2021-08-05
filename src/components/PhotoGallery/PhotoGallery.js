@@ -1,7 +1,4 @@
-import {PhotoGalleryStyled} from "./PhotoGallery.styles";
-import {Photo} from "../Photo/Photo";
 import React, { useState, useCallback } from "react";
-import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "../../utilities/photos";
@@ -27,10 +24,10 @@ const PhotoGallery = () => {
                     <Modal onClose={closeLightbox}>
                         <Carousel
                             currentIndex={currentImage}
-                            views={photos.map(x => ({
-                                ...x,
-                                srcset: x.srcSet,
-                                caption: x.title
+                            views={photos.map(photo => ({
+                                ...photo,
+                                srcset: photo.srcSet,
+                                caption: photo.title
                             }))}
                         />
                     </Modal>
@@ -39,8 +36,5 @@ const PhotoGallery = () => {
         </div>
     )
 }
-//     <PhotoGalleryStyled>
-//     {photos.map(photo => <Photo key={photo} src={`${process.env.PUBLIC_URL}/images/web${photo}.jpg`} />)}
-// </PhotoGalleryStyled>
 
 export {PhotoGallery}

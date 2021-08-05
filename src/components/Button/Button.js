@@ -1,7 +1,8 @@
 import React from "react";
 import {ButtonStyled} from "./Button.styles";
 import {ColorTheme} from "../../utilities/ColorTheme";
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
+import propTypes from "prop-types";
 
 const Button = ({text, icon, target, reversed, outsideLink}) => {
     return (
@@ -17,5 +18,25 @@ const Button = ({text, icon, target, reversed, outsideLink}) => {
 }
 ;
 
-export {Button}
-;
+export {Button};
+
+Button.propTypes = {
+    /** text to show on button */
+    text: propTypes.string,
+    /** true - works as an anchor, with target going into href attribute, false - target is section name */
+    outsideLink: propTypes.bool,
+    /** true - reversed colors for visibility against light background */
+    reversed: propTypes.bool,
+    /** FontAwesome class to render icon, false - no icon; FontAwesome font family must be included in HTML */
+    icon: propTypes.string,
+    /** anchor href or target for react-scroll */
+    target: propTypes.string,
+}
+
+Button.defaultProps = {
+    text: 'Button to click',
+    outsideLink: false,
+    reversed: false,
+    icon: false,
+    target: undefined
+}
