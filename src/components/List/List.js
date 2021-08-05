@@ -11,4 +11,9 @@ const List = ({listContent}) => {
     )
 }
 
+List.propTypes = {
+    /** array of list items content */
+    listContent: propTypes.array
+}
+
 export {List}

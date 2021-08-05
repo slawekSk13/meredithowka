@@ -14,4 +14,11 @@ const Section = ({ backgroundImage, children, name }) => {
   );
 };
 
+Section.propTypes = {
+  /** background image path */
+  backgroundImage: propTypes.string,
+  /** name instead of id, to make section targetable by react-scroll */
+  name: propTypes.string,
+}
+
 export { Section };

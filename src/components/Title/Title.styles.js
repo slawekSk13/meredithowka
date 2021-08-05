@@ -18,13 +18,3 @@ const TitleStyled = styled.h2`
 `;
 
 export {TitleStyled};
-
-
-// @media (min-width: 768px) {
-//     font-size: ${(props) =>
-//             props.big ? "6rem" : props.small ? "3rem" : "4rem"};
-// }
-// @media (min-width: 990px) {
-//     font-size: ${(props) =>
-//             props.big ? "8rem" : props.small ? "3rem" : "5rem"};
-// }

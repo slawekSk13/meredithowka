@@ -9,4 +9,9 @@ const ListItem = ({listContentItem}) => {
     </ColorTheme.Consumer>)
 }
 
+ListItem.propTypes = {
+    /** content of list item */
+    listContent: propTypes.string
+}
+
 export {ListItem}

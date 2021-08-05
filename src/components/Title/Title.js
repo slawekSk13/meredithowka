@@ -15,4 +15,19 @@ const Title = ({ text, size, up, light, thick, big, small }) => {
   );
 };
 
+Title.propTypes = {
+  /** text content of a title */
+  text: propTypes.string,
+  /** font size increase */
+  big: propTypes.bool,
+  /** font size decrease */
+  small: propTypes.bool,
+  /** font weight increase */
+  thick: propTypes.bool,
+  /** uppercase text */
+  up: propTypes.bool,
+  /** color theme change for visibility against dark background */
+  light: propTypes.bool,
+}
+
 export { Title };
