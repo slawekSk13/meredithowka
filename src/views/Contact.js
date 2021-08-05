@@ -1,6 +1,7 @@
 import {Section} from "../components/Section/Section";
 import {Title} from "../components/Title/Title";
 import {Button} from "../components/Button/Button";
+import {googleMap} from '../utilities/secret';
 
 const Contact = () => {
     return (
@@ -21,7 +22,7 @@ const Contact = () => {
                 <Button icon={'fas fa-envelope'} text={'agnieszka@meredithhouse.eu'} target={'mailto:agnieszka@meredithhouse.eu'} reversed outsideLink/>
                 </div>
                 <iframe title='Google Map' width="100%" height="600" frameBorder="0"
-                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ230PoYbrFUcRNMlE0_deEv4&key=AIzaSyA5sF3yo6JSwtCQI35ylK48_8LvsQa5CrA"
+                        src={googleMap}
                         allowFullScreen />
             </Section>
         </>
