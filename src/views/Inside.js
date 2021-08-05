@@ -15,7 +15,7 @@ const Inside = () => {
                 <Button icon={'fas fa-coffee'} text={'Wejdź'} target={'wyposazenie'}/>
             </Section>
             <Section name={'wyposazenie'}>
-                <Title text={'Dom składa się z dwóch pięter:'} thick/>
+                <Title text={'Dom jest dwu piętrowy i składa się z:'} thick/>
                 <Title text={'Parter:'} />
                 <List listContent={['Kuchnia w pełni wyposażone w sprzęty kuchenne', 'Salon z kominkiem', 'Łazienka z prysznicem', 'Pokój z łózkiem podwójnym i pojedynczym']}/>
                 <Title text={'Pierwsze piętro:'} />

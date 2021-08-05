@@ -19,8 +19,9 @@ const PriceList = () => {
                 <List listContent={['2 os. - 450 zł', '3 os. - 600 zł', '4 os. - 750 zł', '5 os. - 900 zł', '6 os. - 1000 zł', 'Od 7 osób do negocjacji', 'Dzieci do 5 lat bezpłatnie', 'Dzieci 5-10 lat - 100 zł']}/>
 
                 <Paragraph text={'Doba zaczyna się o 14:00, a kończy o 11:00'} small/>
-                <Paragraph text={'Prosimy o przedpłatę w wysokości 20% wartości całego pobytu przesłać na konto: PeKaO SA 18 1240 1037 1111 0010 9422 3991'} small/>
-                <Paragraph text={'Na miejscu istnieje możliwość płatności kartą. Wystawiamy faktury.'} small/>
+                <Paragraph text={'Prosimy o przedpłatę w wysokości 20% wartości całego pobytu przesłać na konto:\n' +
+                'PeKaO SA 18 1240 1037 1111 0010 9422 3991'} small/>
+                <Paragraph text={'Wystawiamy faktury.'} small/>
 
             </Section>
         </>

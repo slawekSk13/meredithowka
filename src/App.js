@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import {Intro} from "./views/Intro";
 import {Inside} from "./views/Inside";
 import {PriceList} from "./views/PriceList";
-import {Gallery} from "./views/Gallery";
+import {GalleryWithPhotos} from "./views/GalleryWithPhotos";
 import {Contact} from "./views/Contact";
 import {Footer} from "./components/Footer/Footer";
 import {Header} from "./views/Header/Header";
@@ -54,7 +54,7 @@ function App() {
             <Intro/>
             <Inside/>
             <PriceList/>
-            <Gallery/>
+            <GalleryWithPhotos/>
             <Contact/>
             <Footer/>
         </>

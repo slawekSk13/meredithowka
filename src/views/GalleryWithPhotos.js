@@ -3,7 +3,7 @@ import {Title} from "../components/Title/Title";
 import {Button} from "../components/Button/Button";
 import {PhotoGallery} from "../components/PhotoGallery/PhotoGallery";
 
-const Gallery = () => {
+const GalleryWithPhotos = () => {
     return (
         <>
             <Section name='gallery'
@@ -14,11 +14,10 @@ const Gallery = () => {
                 <Button icon={'fas fa-images'} text={'Zajrzyj do nas'} target={'zdjecia'}/>
             </Section>
             <Section name={'zdjecia'}>
-                <PhotoGallery
-                    photos={[`001`, `004`, `006`, `007`, `010`, `011`, `012`, `013`, `016`, `017`, `018`, `019`, `025`, `028`, `033`, `057`, `043`, `045`, `059`, `047`]}/>
+                <PhotoGallery />
             </Section>
         </>
     )
 }
 
-export {Gallery}
+export {GalleryWithPhotos}

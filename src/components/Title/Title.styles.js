@@ -13,16 +13,18 @@ const TitleStyled = styled.h2`
                   : props.colors.secondaryColor};
   @media (min-width: 400px) {
     font-size: ${(props) =>
-            props.big ? "3rem" : props.small ? "1.5rem" : "2rem"};
-  }
-  @media (min-width: 768px) {
-    font-size: ${(props) =>
-            props.big ? "6rem" : props.small ? "3rem" : "4rem"};
-  }
-  @media (min-width: 990px) {
-    font-size: ${(props) =>
-            props.big ? "8rem" : props.small ? "3rem" : "5rem"};
+            props.big ? "4rem" : props.small ? "2rem" : "3rem"};
   }
 `;
 
 export {TitleStyled};
+
+
+// @media (min-width: 768px) {
+//     font-size: ${(props) =>
+//             props.big ? "6rem" : props.small ? "3rem" : "4rem"};
+// }
+// @media (min-width: 990px) {
+//     font-size: ${(props) =>
+//             props.big ? "8rem" : props.small ? "3rem" : "5rem"};
+// }

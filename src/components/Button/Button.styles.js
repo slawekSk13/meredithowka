@@ -6,7 +6,7 @@ const ButtonStyled = styled.button`
   font-size: 1.1rem;
   border: ${(props) => props.reversed ? 'none' : `2px solid ${props.colors.primaryColor}`};
   color: ${(props) => props.reversed ? props.colors.secondaryColor : props.colors.primaryColor};
-  border-radius: 3px 9px;
+  border-radius: 3px;
   margin: .3rem;
   transition: .4s;
   text-decoration: none;

@@ -17,7 +17,7 @@ const Contact = () => {
                 <div style={{maxWidth: '100%', textAlign: 'center'}}>
                 <Title text={'Serdecznie zapraszamy do kontaktu z nami'} small thick/>
                 <Title text={'Chętnie odpowiemy na wszelkie dodatkowe pytania:'} small/>
-                <Button icon={'fas fa-mobile-alt'} text={'00 48 605 613 530'} target={'tel:+48605613530'} reversed outsideLink/>
+                <Button icon={'fas fa-mobile-alt'} text={'00 48 605 613 530 - Agnieszka Meredith'} target={'tel:+48605613530'} reversed outsideLink/>
                 <Button icon={'fab fa-instagram'} text={'aga_meredith_design'} target={'https://www.instagram.com/p/CHuT4yin2r_/'} reversed outsideLink/>
                 <Button icon={'fas fa-envelope'} text={'agnieszka@meredithhouse.eu'} target={'mailto:agnieszka@meredithhouse.eu'} reversed outsideLink/>
                 </div>
