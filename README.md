@@ -8,6 +8,7 @@ Meredithówka is a simple onepage site for agroturism house available for rent i
 2) REACT
 3) Styleguidist
 4) Styled Components
+5) react-photo-gallery
 
 ## Available Scripts
 
