@@ -3,7 +3,7 @@ import {Button} from "../components/Button/Button";
 import {Section} from "../components/Section/Section";
 import {Paragraph} from "../components/Paragraph/Paragraph";
 
-const Intro = () => <><Section
+const Intro = () => <><Section name='meredithhouse'
     backgroundImage={`${process.env.PUBLIC_URL}/images/web035.jpg`}
 >
     <Title text={'MEREDITHÓWKA'} big up light thick/>

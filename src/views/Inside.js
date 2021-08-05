@@ -6,7 +6,7 @@ import {List} from "../components/List/List";
 const Inside = () => {
     return (
         <>
-            <Section
+            <Section name='inside'
                 backgroundImage={`${process.env.PUBLIC_URL}/images/duze/web039.jpg`}
             >
 

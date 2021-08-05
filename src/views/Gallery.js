@@ -6,7 +6,7 @@ import {PhotoGallery} from "../components/PhotoGallery/PhotoGallery";
 const Gallery = () => {
     return (
         <>
-            <Section
+            <Section name='gallery'
                 backgroundImage={`${process.env.PUBLIC_URL}/images/web016.jpg`}
             >
                 <Title text={'Nie ufam słowom, ufam zdjęciom'} light thick/>

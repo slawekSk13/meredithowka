@@ -7,7 +7,7 @@ import {Paragraph} from "../components/Paragraph/Paragraph";
 const PriceList = () => {
     return (
         <>
-            <Section
+            <Section name='price'
                 backgroundImage={`${process.env.PUBLIC_URL}/images/web037.jpg`}
             >
                 <Title text={'Czas jest cenniejszy od pieniędzy. Możesz mieć więcej pieniędzy, ale nie możesz mieć więcej czasu'} light thick/>

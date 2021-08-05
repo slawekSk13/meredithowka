@@ -7,14 +7,15 @@ const Button = ({text, icon, target, reversed, outsideLink}) => {
     return (
         <ColorTheme.Consumer>
             {colors => (
-                outsideLink ? <ButtonStyled as='a' href={target} colors={colors} reversed={reversed}><i
-                        className={icon}></i> {text}</ButtonStyled>
-                    :
-                    <Link to={target} smooth={true} duration={500}> <ButtonStyled colors={colors} reversed={reversed}><i
-                        className={icon}></i> {text}</ButtonStyled></Link>
+                outsideLink ? <ButtonStyled as='a' href={target} colors={colors} reversed={reversed}>
+                        {icon && <i className={icon}/>} {text}</ButtonStyled>
+                    : <Link to={target} smooth={true} duration={500}> <ButtonStyled colors={colors} reversed={reversed}>
+                        {icon && <i className={icon}/>} {text}</ButtonStyled></Link>
             )}
         </ColorTheme.Consumer>
     );
-};
+}
+;
 
-export {Button};
+export {Button}
+;
