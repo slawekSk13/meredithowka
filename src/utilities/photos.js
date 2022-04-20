@@ -3,6 +3,34 @@ export const photos = [
         src: "https://meredithhouse.eu/images/duze/web045.jpg",
         width: 4,
         height: 3
+    },{
+        src: "https://meredithhouse.eu/images/duze/print00008.jpg",
+        width: 4,
+        height: 3
+    },{
+        src: "https://meredithhouse.eu/images/duze/print00009.jpg",
+        width: 4,
+        height: 3
+    },{
+        src: "https://meredithhouse.eu/images/duze/print00010.jpg",
+        width: 4,
+        height: 3
+    },{
+        src: "https://meredithhouse.eu/images/duze/print00011.jpg",
+        width: 4,
+        height: 3
+    },{
+        src: "https://meredithhouse.eu/images/duze/print00012.jpg",
+        width: 3,
+        height: 4
+    },{
+        src: "https://meredithhouse.eu/images/duze/print00013.jpg",
+        width: 4,
+        height: 3
+    },{
+        src: "https://meredithhouse.eu/images/duze/print00014.jpg",
+        width: 4,
+        height: 3
     },
     {
         src: "https://meredithhouse.eu/images/duze/web001.jpg",

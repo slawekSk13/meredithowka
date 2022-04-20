@@ -9,10 +9,11 @@ const PriceList = () => {
         <>
             <Section name='price'
                 backgroundImage={`${process.env.PUBLIC_URL}/images/web037.jpg`}
-            >
+            ><div className='flex-title'>
                 <Title text={'Czas jest cenniejszy od pieniędzy. Możesz mieć więcej pieniędzy, ale nie możesz mieć więcej czasu'} light thick/>
                 <Title text={'- Jim Rohn'} small light/>
-                <Button icon={'fas fa-coins'} text={'Cennik'} target={'cennik'}/>
+            </div>
+                {/*<Button icon={'fas fa-coins'} text={'Cennik'} target={'cennik'}/>*/}
             </Section>
             <Section name={'cennik'}>
                 <Title text={'Koszt wynajmu domu (doba):'} thick/>

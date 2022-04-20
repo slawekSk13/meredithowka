@@ -8,10 +8,11 @@ const GalleryWithPhotos = () => {
         <>
             <Section name='gallery'
                 backgroundImage={`${process.env.PUBLIC_URL}/images/web016.jpg`}
-            >
+            ><div className='flex-title'>
                 <Title text={'Nie ufam słowom, ufam zdjęciom'} light thick/>
                 <Title text={'- Gilles Peress'} small light/>
-                <Button icon={'fas fa-images'} text={'Zajrzyj do nas'} target={'zdjecia'}/>
+            </div>
+                {/*<Button icon={'fas fa-images'} text={'Zajrzyj do nas'} target={'zdjecia'}/>*/}
             </Section>
             <Section name={'zdjecia'}>
                 <PhotoGallery />

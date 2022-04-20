@@ -9,10 +9,11 @@ const Inside = () => {
             <Section name='inside'
                 backgroundImage={`${process.env.PUBLIC_URL}/images/duze/web039.jpg`}
             >
-
+                <div className='flex-title'>
                 <Title text={'Wnętrze jest zawsze większe od tego, co na zewnątrz'} light thick/>
                 <Title text={'- C.S.Lewis'} small light/>
-                <Button icon={'fas fa-coffee'} text={'Wejdź'} target={'wyposazenie'}/>
+                </div>
+                {/*<Button icon={'fas fa-coffee'} text={'Wejdź'} target={'wyposazenie'}/>*/}
             </Section>
             <Section name={'wyposazenie'}>
                 <Title text={'Dom jest dwupiętrowy i składa się z:'} thick/>

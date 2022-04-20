@@ -19,7 +19,7 @@ const ButtonStyled = styled.button`
   }
 
   @media (min-width: 768px) {
-    font-size: 1.5rem;
+    //font-size: 1.5rem;
     margin: 1rem;
   }
   //@media (min-width: 1200px) {

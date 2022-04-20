@@ -6,7 +6,7 @@ const HeaderStyled = styled.header`
   position: fixed;
   z-index: 15;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   flex-direction: column;
   visibility: ${props => props.mobile ? 'visible' : 'hidden'};
   @media (min-width: 768px) {
