@@ -5,10 +5,11 @@ import {Paragraph} from "../components/Paragraph/Paragraph";
 
 const Intro = () => <><Section name='meredithhouse'
                                backgroundImage={`${process.env.PUBLIC_URL}/images/web035.jpg`}
->
-    <Title text={'MEREDITHÓWKA'} big up light thick/>
-    <Title text={'NIEZNANE PODHALE'} up light/>
-    <Button icon={'fas fa-home'} text={'Zapraszamy!'} target={'meredithowka'}/>
+><div className='flex-title'>
+    <Title text={'Meredithówka'} big up light thick/>
+    <Title text={'Nieznane Podhale'} up light/>
+</div>
+    {/*<Button icon={'fas fa-home'} text={'Zapraszamy!'} target={'meredithowka'}/>*/}
 </Section>
     <Section name={'meredithowka'}>
         <Title text={'Meredithówka to ponad stuletni, góralski dom...'} thick/>

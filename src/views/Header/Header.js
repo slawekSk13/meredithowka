@@ -3,11 +3,11 @@ import {HeaderStyled} from "./Header.styles";
 
 const Header = ({mobile, onClick}) => {
     return (<HeaderStyled mobile={mobile} onClick={onClick}>
-        <Button target='meredithhouse' text='Meredithówka' reversed/>
-        <Button target='inside' text='Wnętrze' reversed/>
-        <Button target='price' text='Cennik' reversed/>
-        <Button target='gallery' text='Zdjęcia' reversed/>
-        <Button target='cont' text='Kontakt' reversed/>
+        <Button target='meredithhouse' text='Meredithówka' reversed  onClick={onClick}/>
+        <Button target='inside' text='Wnętrze' reversed  onClick={onClick}/>
+        <Button target='price' text='Cennik' reversed  onClick={onClick}/>
+        <Button target='gallery' text='Zdjęcia' reversed  onClick={onClick}/>
+        <Button target='cont' text='Kontakt' reversed  onClick={onClick}/>
     </HeaderStyled>);
 }
 
